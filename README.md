@@ -1,93 +1,35 @@
-# What To Say
+# 🗣️ What Do I Say?
 
-Build a simple AI writing assistant called "What Do I Say?"
+**What Do I Say?** is a simple AI-powered writing assistant that helps you turn your thoughts into clear, well-written messages.
 
-The purpose is to help normal people figure out how to phrase awkward messages.
+Whether you're texting your boss, replying to a friend, sending an email, or dealing with an awkward situation, just explain what you want to say and let the app write it for you.
 
-Main page
+## ✨ Features
 
-Header:
+- ✍️ Describe what you want to say in your own words
+- 🤖 Generate polished messages with AI
+- 🎭 Choose different writing styles:
+  - Professional
+  - Friendly
+  - Polite
+  - Short
+  - Casual
+- 🔄 Generate alternative versions
+- ✂️ Make messages shorter
+- 😊 Make messages friendlier
+- 📋 Copy messages with one click
+- 📱 Mobile-friendly and responsive
 
-What Do I Say?
+## 🚀 How It Works
 
-Subtitle:
+1. Describe what you want to say.
+2. Choose the tone you want.
+3. Click **Write It For Me**.
+4. Get a polished message.
+5. Copy it and send it.
 
-"Tell me what you want to say. I'll help you say it."
+## 🎯 Goal
 
-Create a large textarea with placeholder:
+The goal is to make communication easier for people who know **what they want to say but don't know how to phrase it**.
 
-"I need to tell my boss I can't come tomorrow."
-
-Add style options:
-
-Professional
-
-Friendly
-
-Polite
-
-Short
-
-Casual
-
-Add a large button:
-
-✨ Write It For Me
-
-Result
-
-Display:
-
-Your message
-
-Then generate a polished message based on the user's situation and selected style.
-
-Example:
-
-"Hi Sarah, unfortunately I'm not feeling well and won't be able to come in tomorrow. I'll keep you updated. Thanks for understanding."
-
-Add buttons:
-
-Copy
-Try another version
-Make it shorter
-Make it friendlier
-
-AI
-
-Use an LLM API to generate the response.
-
-The AI should preserve the user's intended meaning and should not invent important facts.
-
-If AI is not configured, provide a mock response so the interface can still be tested.
-
-UX
-
-Keep the application extremely simple.
-
-No authentication, database, dashboard, or unnecessary pages.
-
-Make the generated message easy to copy on mobile.
-
-Use a clean modern interface with subtle animations and excellent typography.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/12bb339e-7803-44c9-a037-cb4e00b64e02).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+> You provide the thought. We help you find the words. 💬
